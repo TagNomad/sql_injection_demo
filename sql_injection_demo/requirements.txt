@@ -1,0 +1,18 @@
+# SQL注入攻击与防御演示系统依赖包
+# SQL Injection Demo System Dependencies
+
+# Web框架 | Web Framework
+Flask>=2.0.0
+
+# HTTP客户端库（用于测试脚本）| HTTP Client Library (for testing script)
+requests>=2.25.0
+
+# 可选：增强功能依赖 | Optional: Enhanced Features
+# Werkzeug>=2.0.0  # Flask底层WSGI工具包 | Flask underlying WSGI toolkit
+
+# 开发和测试工具 | Development and Testing Tools  
+# pytest>=6.0.0          # 单元测试框架 | Unit testing framework
+# beautifulsoup4>=4.9.0  # HTML解析库 | HTML parsing library
+
+# 注意：SQLite是Python标准库的一部分，无需额外安装
+# Note: SQLite is part of Python standard library, no additional installation needed 
